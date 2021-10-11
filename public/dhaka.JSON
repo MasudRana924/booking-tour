@@ -1,0 +1,40 @@
+[
+	{
+		"id": 1,
+		"name": "Lalbaagh Fort",
+		"img": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQ5DCCtj9OCHRfdHYvs6YysCW1piNIUYdYGdOyDsorE1eSguPr-vSsI_pLxrEqbkdLWZCEWj9F7dSGhJyXpIAForQ",
+        "desc":"Lalbagh Fort is an incomplete 17th-century Mughal fort complex"
+	},
+	{
+		"id": 2,
+		"name": "Ahsan Manzil Museum",
+		"img": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRmT89KpPbWdfD5l4RrXMJ68xW7lKPUz1qlJ4ltHfOhTho_Ku2C34lTSnyt7GYd1HWsOejlqVsWa6ZOpfbGDgMfFw",
+        "desc":"Ahsan Manzil used to be the official residential palace and seat of the Nawab of Dhaka. "
+
+	},
+	{
+		"id": 3,
+		"name": "Bangladesh National Parliament",
+		"img": "https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcRMCejcEsE1IwVpFFgcriXmjMgpVHH2c1OtIdBs3wrhyguupV_DvxEdxHjcMCkVOaRY50KGVd0Fy_eGZ5JUWj9mKw",
+        "desc":"Jatiya Sangsad Bhaban or National Parliament House, is the house of the Parliament of Bangladesh,"
+	},
+	{
+		"id": 4,
+		"name": "Central Shaheed Minar",
+		"img": "https://lh5.googleusercontent.com/p/AF1QipP-vBatxKOWSGGctLz_-jhBu2dq0isDXLCRgMMn=w464-h260-n-k-no",
+        "desc":"The Shaheed Minar is a national monument in Dhaka"
+	},
+	{
+		"id": 5,
+		"name": "Baitul Mukarram National Mosque",
+		"img": "https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcQYxJAFfnX_QsWT4zl9Wwl-RT52GZV-xBalYCVU0nmgxmL1-2KnP5ORYN40_8ftc2tt7YqpIEWZ4DIX72zfkKoJDg",
+        "desc":"Baitul Mukarram, also spelled as Baytul Mukarrom is the National Mosque of Bangladesh"
+	},
+	{
+		"id": 6,
+		"name": "Curzon Hall",
+		"img": "https://lh5.googleusercontent.com/p/AF1QipOaKNyRj6JhptfMNPeJObT31ieqs55hORIzcxeH=w464-h260-n-k-no",
+        "desc":"The Curzon Hall is a British Raj-era building and home of the Faculty of Sciences at the University of Dhaka."
+	}
+	
+]

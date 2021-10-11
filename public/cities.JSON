@@ -1,0 +1,42 @@
+[
+	{
+		"id": 1,
+		"name": "Dhaka",
+		"img": "https://www.weather-atlas.com/weather/images/city/3/8/160783-1500.jpg"
+	},
+	{
+		"id": 2,
+		"name": "Chattagram",
+		"img": "http://touristplace.bangladeshinformation.info/wp-content/uploads/sites/7/2018/11/chittagong.jpg"
+	},
+	{
+		"id": 3,
+		"name": "Sylhet",
+		"img": "https://www.bdtrips.com/wp-content/uploads/2015/04/Tea-Garden-in-Sylhet-Bangladesh.jpg"
+	},
+	{
+		"id": 4,
+		"name": "Rangamati",
+		"img": "https://www.thefinancetoday.net/uploads/shares/Rangamati_hanging_Bridge-2019-12-24-12-47-02.jpg"
+	},
+	{
+		"id": 5,
+		"name": "Bandanban",
+		"img": "https://www.travelmate.com.bd/wp-content/uploads/2021/02/Buddha-Dhatu-Jadi-Golden-Temple.jpg"
+	},
+	{
+		"id": 6,
+		"name": "Cox Bazar",
+		"img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJ3hVdH3jJxwmOqnpKi9FWdOcBqgghdTs0t1cXXJTJQO2jD1N6rUy1daeyxqUzSfTNdzc&usqp=CAU"
+	},
+	{
+		"id": 7,
+		"name": "Kuakata",
+		"img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdIotOMnEpD2tzcQmqZNm7GqM7KDf-xvwCLy-ynXP7aMs_duNfXf9bngaKO9IYfvyjHPY&usqp=CAU"
+	},
+	{
+		"id": 8,
+		"name": "Khagrachari",
+		"img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSa5YaUuSv_l2mS4E2tJTFfwo2WiSmwl32EPU880vxlCKHuc0KC3yzqAEVwZNsLOIkkSHc&usqp=CAU"
+	}
+]

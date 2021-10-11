@@ -1,0 +1,24 @@
+.card-style{
+    transition: 0.3s;
+ 
+ 
+   
+}
+.icons{
+    justify-content: space-between;
+}
+.link{
+    text-decoration: none;
+    color:gray;
+}
+.icon{
+    color:goldenrod;
+    font-size: 20px;
+}
+.images{
+    height:200px;
+    width:100%;
+}
+.card-style:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
