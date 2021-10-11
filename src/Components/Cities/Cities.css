@@ -2,3 +2,14 @@
     position: absolute;
     margin-top: 25px;
 }
+.search{
+    margin-top: 70px;
+   
+}
+.search input{
+    border-radius: 5px;
+    border:1px solid rgba(7, 102, 7, 0.705);
+    outline: green;
+    height:40px;
+   
+}

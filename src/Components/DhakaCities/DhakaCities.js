@@ -13,7 +13,7 @@ const DhakaCities = () => {
         <Container fluid className=" mt-5">
         <div>
             <p className=" text-start text-secondary fs-6  heading">Explore Dhaka</p>
-            <Row xs={1} md={3} >
+            <Row xs={1} md={3} className="mt-5">
 
                 {
                     cities.map(city => <DhakaCity

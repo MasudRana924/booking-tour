@@ -1,0 +1,24 @@
+footer{
+    height:300px;
+}
+.anchor{
+    text-decoration: none;
+    color:whitesmoke;
+    font-size: 11px;
+}
+.insta-icon{
+    font-size: 20px;
+   color:chocolate;
+}
+.fb-icon{
+    font-size: 20px;  
+    color: rgba(0, 0, 255, 0.753); 
+}
+.youtube-icon{
+    font-size: 20px;
+    color:red;
+}
+.google-icon{
+    color:green;
+    font-size: 20px;
+}

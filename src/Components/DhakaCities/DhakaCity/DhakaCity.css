@@ -1,0 +1,23 @@
+.card-style-city{
+    transition: 0.3s;
+   height:400px;
+ 
+   
+}
+.card-style-city:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  .images{
+    height:200px;
+    width:100%;
+}
+.button{
+    display:none;
+    background-color: goldenrod;
+    border:1px solid  goldenrod;
+}
+.card-style-city:hover .button{
+    display: block;
+    height:40px;
+    transition: 0.3s;
+   }

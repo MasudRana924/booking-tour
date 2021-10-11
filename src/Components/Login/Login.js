@@ -1,10 +1,21 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
-import useFirebase from './../Hooks/useFirebase';
+import { Link,useLocation,useHistory } from 'react-router-dom';
+import useAuth from '../Hooks/useAuth';
+
 
 const Login = () => {
-    const {user,googleSignIn}=useFirebase()
+    const {googleSignIn}=useAuth()
+    const location=useLocation()
+    const location_url=location.state?.from || '/home'
+    const history=useHistory()
+    const handleGoogleSignIn=()=>{
+        googleSignIn()
+        .then(result => {
+            console.log(result.user)
+           history.push(location_url)
+        })
+    }
     return (
         <Container fulid style={{marginTop:'80px'}}>
             <div className="row mt-5">
@@ -23,7 +34,7 @@ const Login = () => {
                         <p class="mt-1 para">By continuing, you agree to Amazon's <Link className=" text-decoration-none">Conditions of Use </Link  >
                             and <Link className=" text-decoration-none">Privacy Notice</Link  >  </p>
 
-                            <button onClick={googleSignIn} class="w-100 btn rounded-3 bg-success mt-3">Google Sign In</button>
+                            <button onClick={handleGoogleSignIn} class="w-100 btn rounded-3 bg-success mt-3">Google Sign In</button>
                     </div>
                     <div class="d-flex justify-content-center align-items-center w-100 mb-2">
                         <div class="col-4">

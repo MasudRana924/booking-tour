@@ -4,16 +4,17 @@ import './Header.css'
 import useFirebase from './../Hooks/useFirebase';
 import { NavLink } from 'react-router-dom';
 import './Header.css'
+import useAuth from '../Hooks/useAuth';
 
 const Header = () => {
-    const { user, logOut } = useFirebase()
+    const { user, logOut } = useAuth()
 
     return (
-        <Container fluid className="bg-dark text-white header">
-            <Navbar fixed="top" collapseOnSelect expand="lg" bg="dark" variant="dark">
+        <Container fluid className="bg-white text-dark header">
+            <Navbar fixed="top" collapseOnSelect expand="lg" bg="white" variant="dark">
                 <Container>
                     <Navbar.Brand href="#home" className="text-primary fs-1">TourInfo.BD</Navbar.Brand>
-                    <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+                    <Navbar.Toggle className="bg-primary" aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="me-auto">
                             <NavLink to="/home">Home</NavLink>
